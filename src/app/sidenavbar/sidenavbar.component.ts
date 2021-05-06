@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class SidenavbarComponent implements OnInit {
 
   constructor(private router:Router, private activated:ActivatedRoute) { 
-    
+    console.log('Sidenavbar component');
   }
 
   ngOnInit(): void {
